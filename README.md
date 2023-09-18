@@ -4,7 +4,7 @@ WordPress Quick setup with WPCLI for local development
 ## Installing
 Copy and execute following command to install WordPress Quick
 ```
-wget -qO wq https://raw.githubusercontent.com/enishant/wq/master/wq && sudo bash wq
+wget -qO wq https://raw.githubusercontent.com/enishant/wq/1.0/wq && sudo bash wq
 ```
 
 ## Usage
