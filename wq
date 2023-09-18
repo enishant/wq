@@ -21,7 +21,7 @@ if ! command -v $WQ_COMMAND > /dev/null 2>&1; then
     sudo cp $WQ_COMMAND $WQ_FILE
     sudo chmod +x $WQ_FILE
     if command -v $WQ_COMMAND > /dev/null 2>&1; then
-    	#rm $WQ_COMMAND
+    	rm $WQ_COMMAND
     	echo "WPCLI Quick installed successfully."
     	echo "Use command as follow:"
         echo "$WQ_COMMAND <project_name> <database_user> <database_password> <base_url>"
